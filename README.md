@@ -10,4 +10,4 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 
 ## Links
 - Frontend Mentor - [@ferlaxi](https://www.frontendmentor.io/profile/ferlaxi)
-- Live Site URL: [Ping coming soon page]()🌐
+- Live Site URL: [Ping coming soon page](https://ferlaxi.github.io/Ping-single-column-coming-soon-page/)🌐
