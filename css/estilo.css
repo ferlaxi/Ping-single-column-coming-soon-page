@@ -1,0 +1,272 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100%;
+}
+
+.logo{
+    margin-left: 49%;
+    margin-top: 3%;
+}
+
+.palabra1{
+    font-family: 'Libre Franklin', sans-serif;
+    color: hsl(0, 0%, 59%);
+    font-size: 45px;
+    margin-top: 40px;
+    margin-left: 35.3%;
+}
+
+.palabra2{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 45px;
+    margin-left: 50%;
+    margin-top: -55px;
+    color: black;
+    font-weight: bold;
+}
+
+.subtitulo{
+    font-family: 'Libre Franklin', sans-serif;
+    margin-left: 43%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.input{
+    margin-left: 35%;
+    margin-top: 40px;
+    width: 350px;
+    height: 55px;
+    border-radius: 30px;
+    border: 1px solid hsl(212, 24%, 86%);
+    padding: 0px 0px 0px 30px;
+}
+
+.input:focus{
+    outline: none;
+    border:1px solid hsla(249, 10%, 26%, 0.603)
+}
+
+::placeholder{
+    font-family: 'Poppins', sans-serif;
+    color: hsla(0, 0%, 59%, 0.61);
+}
+
+.boton{
+    text-decoration: none;
+    padding: 20px 60px 20px 60px;
+    border-radius: 30px;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.137);
+    transition: all .4s
+}
+
+.boton:hover{
+    background-color: hsla(223, 87%, 63%, 0.699);
+}
+
+
+/* error */
+.borderojo{
+    border: 1px solid hsl(354, 100%, 66%);
+}
+
+.error{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(354, 100%, 66%);
+    font-size: 12px;
+    margin-left: 36%;
+    margin-top: 10px;
+    visibility: hidden;
+}
+
+
+
+.mainimg{
+    width: 700px;
+    margin-top: 35px;
+    margin-left: 600px;
+}
+
+.redes{
+    margin-top: 85px;
+    margin-left: 48%;
+}
+
+.btnface{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid hsla(0, 0%, 59%, 0.37);
+    padding: 6px 6px 4px 6px;
+    border-radius: 50%;
+    transition: all .4s;
+}
+
+.btnface:hover{
+    background-color: hsl(223, 87%, 63%);
+}
+
+.btnface:hover .facebook{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(161deg) brightness(104%) contrast(104%);
+}
+
+.facebook{
+    width: 14px;
+    filter: invert(43%) sepia(87%) saturate(3697%) hue-rotate(214deg) brightness(110%) contrast(91%);
+}
+
+.btntw{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid hsla(0, 0%, 59%, 0.37);
+    padding: 6px 6px 4px 6px;
+    border-radius: 50%;
+    margin-left: 5px;
+    transition: all .4s;
+}
+
+.twitter{
+    width: 14px;
+    filter: invert(43%) sepia(87%) saturate(3697%) hue-rotate(214deg) brightness(110%) contrast(91%);
+}
+
+.btntw:hover{
+    background-color: hsl(223, 87%, 63%);
+}
+
+.btntw:hover .twitter{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(161deg) brightness(104%) contrast(104%);
+}
+
+.btninsta{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid hsla(0, 0%, 59%, 0.37);
+    padding: 6px 6px 4px 6px;
+    border-radius: 50%;
+    margin-left: 5px;
+    transition: all .4s;
+}
+
+.instagram{
+    width: 14px;
+    filter: invert(43%) sepia(87%) saturate(3697%) hue-rotate(214deg) brightness(110%) contrast(91%);
+}
+
+.btninsta:hover{
+    background-color: hsl(223, 87%, 63%);
+}
+
+.btninsta:hover .instagram{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(161deg) brightness(104%) contrast(104%);
+}
+
+.cr{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: hsla(0, 0%, 59%, 0.692);
+    margin-top: 20px;
+    margin-left: 45%;
+}
+
+
+/* 1440px Size */
+@media (max-width: 1440px){
+    .logo{
+        margin-left: 680px;
+    }
+
+    .palabra1{
+        margin-left: 440px;
+    }
+
+    .subtitulo{
+        margin-left: 580px;
+    }
+
+    .input{
+        margin-left: 450px;
+    }
+
+    .error{
+        margin-left: 480px;
+    }
+
+    .mainimg{
+        width: 550px;
+        margin-left: 460px;
+    }
+
+    .redes{
+        margin-left: 680px;
+    }
+
+    .cr{
+        margin-left: 625px;
+    }
+}
+
+/* 375px Size */
+@media (max-width: 375px){
+    .logo{
+        margin-left: 145px;
+        margin-top: 90px;
+    }
+
+    .palabra1{
+        margin-left: 22px;
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    .palabra2{
+        margin-left: 180px;
+        font-size: 25px;
+    }
+
+    .subtitulo{
+        margin-top: 20px;
+        margin-left: 80px;
+        font-size: 15px;
+    }
+
+    .input{
+        margin-left: 25px;
+        width: 330px;
+        height: 50px;
+    }
+
+    .boton{
+        display: inline-block;
+        margin-left: 25px;
+        margin-top: 10px;
+        padding: 15px 125px 15px 125px ;
+    }
+
+    .error{
+        margin-top: -70px;
+        margin-left: 50px;
+    }
+
+    .mainimg{
+        width: 300px;
+        margin-top: 90px;
+        margin-left: 40px;
+    }
+
+    .redes{
+        margin-top: 70px;
+        margin-left: 140px;
+    }
+
+    .cr{
+        margin-left: 80px;
+    }
+}
